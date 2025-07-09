@@ -1,0 +1,61 @@
+.result-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.summary li {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.result-list {
+  margin-top: 16px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.result-frame {
+  padding: 10px;
+  background: white;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.badge.good {
+  background-color: #d1f7c4;
+  color: #227400;
+}
+.badge.slouch {
+  background-color: #ffe5b4;
+  color: #a45a00;
+}
+.badge.head {
+  background-color: #ffdcdc;
+  color: #b80000;
+}
+.badge.shoulders {
+  background-color: #fff3cd;
+  color: #8a6d3b;
+}
+.badge.squat {
+  background-color: #d0e7ff;
+  color: #004785;
+}
+.badge.unknown {
+  background-color: #e0e0e0;
+  color: #333;
+}
