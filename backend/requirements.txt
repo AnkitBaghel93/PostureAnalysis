@@ -4,3 +4,4 @@ pymongo
 python-dotenv
 passlib[bcrypt]
 pydantic[email]
+opencv-python-headless
