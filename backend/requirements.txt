@@ -5,9 +5,10 @@ python-dotenv
 passlib[bcrypt]
 pydantic[email]
 opencv-python-headless
-mediapipe @ git+https://github.com/google/mediapipe.git
+mediapipe==0.10.9
 numpy
 python-multipart
+
 
 
 
