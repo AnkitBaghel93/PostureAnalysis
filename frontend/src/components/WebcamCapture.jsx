@@ -74,7 +74,7 @@ const WebcamCapture = () => {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://127.0.0.1:9000/analyze', formData, {
+      const res = await axios.post('https://postureanalysis-backend.onrender.com/analyze', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
 
