@@ -10,7 +10,7 @@ const Navbar = () => {
 
 const handleLogout = async () => {
   try {
-    const res = await fetch("http://127.0.0.1:9000/api/logout", {
+    const res = await fetch("https://postureanalysis-backend.onrender.com/api/logout", {
       method: "POST",
       credentials: "include", 
     });
