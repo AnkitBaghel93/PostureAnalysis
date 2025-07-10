@@ -28,7 +28,7 @@ const Signup = () => {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://127.0.0.1:9000/api/signup', formData);
+      const res = await axios.post('https://postureanalysis-backend.onrender.com/api/signup', formData);
       alert('Signup successful!');
       navigate('/signin');
     } catch (err) {
