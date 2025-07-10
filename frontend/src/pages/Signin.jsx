@@ -27,7 +27,7 @@ const Signin = () => {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://127.0.0.1:9000/api/signin', formData);
+      const res = await axios.post('https://postureanalysis-backend.onrender.com/api/signin', formData);
       login(res.data.token);
       localStorage.setItem('token', res.data.token);
       alert('Login successful!');
