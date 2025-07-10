@@ -128,7 +128,7 @@ const ResultDisplay = ({ results, videoPath }) => {
       {showVideo && videoPath && (
         <div className="mt-8 flex justify-center">
           <video
-            src={`http://127.0.0.1:9000/processed-video?path=${encodeURIComponent(videoPath)}`}
+            src={`https://postureanalysis-backend.onrender.com/processed-video?path=${encodeURIComponent(videoPath)}`}
             controls
             className="rounded-lg shadow-md w-full max-w-3xl"
           />
