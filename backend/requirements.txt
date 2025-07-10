@@ -8,6 +8,9 @@ opencv-python-headless
 mediapipe
 numpy
 python-multipart
+python-jose
+requests
+jinja2
 
 
 
